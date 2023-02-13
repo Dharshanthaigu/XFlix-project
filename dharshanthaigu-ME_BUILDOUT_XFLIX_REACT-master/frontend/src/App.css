@@ -1,0 +1,46 @@
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  height: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.filter-list {
+  overflow-x: scroll;
+}
+
+.filter-list::-webkit-scrollbar {
+  height: 0;
+}
+
+.vote-btn {
+  border-radius: 200px !important;
+}
+
+.dot {
+  background-color: #797979;
+  width: 6px;
+  height:6px;
+  border-radius: 50%;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #444;
+}
+
+.search-box {
+  border: 1px solid #555;
+}
+
+input {
+  color-scheme: dark;
+}
